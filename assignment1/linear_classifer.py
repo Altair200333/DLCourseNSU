@@ -100,8 +100,8 @@ def l2_regularization(W, reg_strength):
     # TODO: implement l2 regularization and gradient
     # Your final implementation shouldn't have any loops
     
-    loss = reg_strength*np.sum(np.square(W))
-    grad = 2*reg_strength*W
+    loss = reg_strength * np.sum(np.square(W))
+    grad = 2 * reg_strength * W
     
     return loss, grad
     
